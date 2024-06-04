@@ -1,0 +1,16 @@
+{
+  "name": "translators",
+  "version": "1.0.0",
+  "description": "https://translators.bastianparedes.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo build"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.13.0"
+  }
+}

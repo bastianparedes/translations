@@ -1,0 +1,18 @@
+@if (loading) {
+  <div class="fixed top-0 left-0 w-svw h-svh bg-gray-500 opacity-70"></div>
+}
+<h2>Multiple translators</h2>
+<form class="flex gap-2 p-2">
+  
+  @for (language of languages; track language.code) {
+    <div class="flex-1">
+      <h2>{{language.title}}</h2>
+      <textarea
+        [(ngModel)]="language.text"
+        (ngModelChange)="onChange($event, language.code)"
+        class="text-xl p-1 border-gray-600 border-2 border-solid resize-none w-full h-96"
+        [name]="language.code"
+      ></textarea>
+    </div>
+  }
+</form>
