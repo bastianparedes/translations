@@ -1,7 +1,7 @@
 {
-  "name": "translators",
+  "name": "translationss",
   "version": "1.0.0",
-  "description": "https://translators.bastianparedes.com",
+  "description": "https://translationss.bastianparedes.com",
   "main": "index.js",
   "scripts": {
     "dev": "turbo run dev",

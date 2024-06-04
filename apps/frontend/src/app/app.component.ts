@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { TranslatorComponent } from './translator/translator.component';
+import { TranslationsComponent } from './translations/translations.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [TranslatorComponent],
+  imports: [TranslationsComponent],
   templateUrl: './app.component.html',
 })
 

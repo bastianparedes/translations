@@ -1,7 +1,7 @@
-# Translators created with Angular 17 and Nest
+# Translationss created with Angular 17 and Nest
 
 ## URL
-https://translators.bastianparedes.com
+https://translationss.bastianparedes.com
 
 ## Backend
 ### Environment variables

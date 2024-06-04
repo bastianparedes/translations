@@ -5,7 +5,7 @@ services:
     build:
       context: ./apps/backend
       dockerfile: Dockerfile
-    image: translators/backend
+    image: translationss/backend
     ports:
       - "3000:3000"
     volumes:
@@ -16,7 +16,7 @@ services:
     build:
       context: ./apps/frontend
       dockerfile: Dockerfile
-    image: translators/frontend
+    image: translationss/frontend
     ports:
       - "4200:4200"
     volumes:

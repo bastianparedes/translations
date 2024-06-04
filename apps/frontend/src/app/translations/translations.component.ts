@@ -5,14 +5,14 @@ import {
 } from '@angular/forms';
 
 @Component({
-  selector: 'app-translator',
+  selector: 'app-translations',
   standalone: true,
   imports: [
     FormsModule
   ],
-  templateUrl: './translator.component.html'
+  templateUrl: './translations.component.html'
 })
-export class TranslatorComponent {
+export class TranslationsComponent {
   loading = false;
   timeout = NaN;
   languages = [
